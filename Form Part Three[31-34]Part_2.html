@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Form with Search, File, and URL Fields</title>
+    <meta name="description" content="Form with search, file, URL, date, and month fields"/>
+</head>
+<body>
+    <h1>Form with Search, File, URL, Date, and Month Fields</h1>
+    <form action="your-server-endpoint" method="get" target="_blank">
+        <div>
+            <label for="search">Search:</label><br/>
+            <input type="search" id="search" name="search" placeholder="Enter A Search Word" autofocus>
+        </div><br/>
+
+        <div>
+            <label for="file">File:</label><br/>
+            <input type="file" id="file" name="file">
+        </div><br/>
+
+        <div>
+            <label for="url">URL:</label><br/>
+            <input type="url" id="url" name="url" required>
+        </div><br/>
+
+        <div>
+            <label for="date">Date:</label><br/>
+            <input type="date" id="date" name="date" value="1982-10-25">
+        </div><br/>
+
+        <div>
+            <label for="month">Month:</label><br/>
+            <input type="month" id="month" name="month" value="1982-10">
+        </div><br/>
+
+        <div>
+            <input type="reset" value="Empty">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>

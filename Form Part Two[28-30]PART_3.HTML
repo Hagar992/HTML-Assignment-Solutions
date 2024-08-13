@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Form Part Two[28-30]</title>
+        <meta name="description" content="Task Elzero from video 28 To 30"/>
+    </head>
+    <body>
+        <h1>Form Part Two[28-30]</h1>
+        <form method="get">
+            <div>
+                <label>UserName</label>
+                <input type="text" 
+                        minlength="5" 
+                        maxlength="20" 
+                        autofocus 
+                        name="UserName" 
+                        required >
+            </div><br/>
+            <div>
+                <label>Email</label>
+                <input type="email"
+                        readonly 
+                        name="Email" 
+                        value=" o@o.com">
+            </div><br/>
+            <div> 
+                <input type="hidden" 
+                value=" b92f1fc2fce391ad7af633723afd3055"
+                name="Token">
+            </div><br/>
+            <h2>Skills</h2>
+            <div>
+                <input type="checkbox" name="Skills" multiple id="Problem Solving" value="Problem Solving" checked>
+                <label for="Problem Solving">Problem Solving</label>
+
+            </div><br/>
+            <div>
+                <input type="checkbox" name="Skills" multiple id="Logical Thinking" value="Logical Thinking">
+                <label for="Logical Thinking">Logical Thinking</label>
+
+            </div><br/>
+            <div>
+                <input type="checkbox" name="Skills" multiple id="Advanced Search" value="Advanced Search">
+                <label for="Advanced Search">Advanced Search</label>
+
+            </div><br/>
+            <div>
+                <input type="checkbox" name="Skills" multiple id="Analysis" value="Analysis">
+                <label for="Analysis">Analysis</label>
+
+            </div><br/>
+            <div>
+                <input type="checkbox" name="Skills" multiple id="Planning" value="Planning">
+                <label for="Planning">Planning</label>
+
+            </div><br/>
+            <br/>
+            
+           <h2>Job</h2>
+            <div><label for="Front-End Developer"></label><input type="radio" name="Job"  id="Front-End Developer" value="Front-End Developer" checked>Front-End Developer</label></div><br/>
+            <div><label for="Back-End Developer"><input type="radio" name="Job" id="Back-End Developer" value="Back-End Developer">Back-End Developer</label></div><br/>
+            <div> <label for="Business Analyst"></label><input type="radio" name="Job"  id="Business Analyst" value="Business Analyst">Business Analyst</label></div><br/>
+            <div><label for="Project Manager"></label><input type="radio" name="Job" id="Project Manager" value="Project Manager">Project Manager</label></div><br/>
+            <div><label for="Scrum Master"></label><input type="radio" name="Job" id="Scrum Master" value="Scrum Master">Scrum Master</label></div><br/>
+            
+            <div> 
+                <label for="Domain">Choose a Domain:</label>
+                <select name="Domain" id="Domain">
+                    <optgroup label="PHP">
+                        <option value="V5.0">V5.0</option>
+                        <option value="V7.0">V7.0</option>
+                        <option value="V8.0">V8.0</option>
+                    </optgroup>
+                    <optgroup label="Python">
+                        <option value="V2.0">V2.0</option>
+                        <option value="V3.0">V3.0</option>
+                        <option value="V3.9">V3.9</option>
+                    </optgroup>
+                            
+                </select>
+            </div><br>
+
+            <div><label for="brief">Your Brief:</label><br/> <textarea name="brief" id="brief" rows="10" cols="50" placeholder="Write Here Why You Want To Learn Programming"></textarea><br></div>
+            
+            <div> 
+                 <input type="submit" value="Send">
+                 <input type="reset" value="Empty">
+            </div>
+
+        </form>
+
+    </body>
+</html>

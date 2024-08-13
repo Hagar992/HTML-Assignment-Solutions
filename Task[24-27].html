@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Shams</title>
+        <mwta name="description" content=""/>
+
+    </head>
+    <body> 
+        <h1>My Form</h1>
+        <form action="test.py" method="get">
+            
+           <div>
+            <label>UserName</label><br>
+            <input type="text" required placeholder="User Name" name="UN">
+           </div>
+           <hr>
+           <div>
+            <label>UserName</label><br>
+            <!--مقضرش اعدل القيمة ولكن بتتبعت مع البيانات-->
+            <input type="text" required placeholder="User Name" name="UN " readonly value="Hagar">
+           </div>
+           <hr>
+           <div>
+            <label>UserName</label><br>
+            <!-- --مقضرش اعدل القيمة ومش بتتبعت مع البيانات-- -->
+            <input type="text" required placeholder="User Name" name="UN " disabled value="Hagar">
+           </div>
+           <hr>
+
+
+           <div>
+            <label>Password</label><br>
+            <input type="password" placeholder="Password" name="PAS" minlength="8" maxlength="15">
+           </div>
+           <hr>
+
+           <div>
+            <label>Mobile</label><br>
+            <input type="tel" placeholder="+20100 (234) 123" name="MO">
+           </div>
+           <hr>
+           <div>
+            <label>Email</label><br>
+            <input type="email" required placeholder="Email" name="EM ">
+           </div>
+           <hr>
+
+           <div>
+            <label>Subject</label><br>
+            <input type="text" placeholder="Subject" name="SUB">
+           </div>
+           <hr>
+           <div>
+            <label>Range</label><br>
+            <input type="range" min="100" max="500" step="50" value="400" name="range">
+           </div>
+           <hr>
+           <div>
+            <label>Color</label><br>
+            <input type="color" name="Coler">
+           </div>
+           <hr>
+           <div>
+            <input type="submit" value="Send Data">
+            <input type="reset" value="Empty Form">
+            <input type="hidden" name="hiddenField" value="4">
+           </div>
+
+        </form>
+
+    </body>
+</html>
